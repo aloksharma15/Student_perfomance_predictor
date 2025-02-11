@@ -42,54 +42,32 @@ IIn today's rapidly evolving education system, data-driven insights can play a p
 
 ## Dataset
 
-The dataset used for training the machine learning model is sourced from [Kaggle - Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977). It contains information about students' demographics, parental education, lunch type, test preparation course, and their corresponding math scores.
+The dataset used for training is sourced from Kaggle: "Students Performance in Exams."
+It includes student demographics, parental education, lunch type, test preparation course participation, and corresponding math scores.
 
 ## Model Training
 
-The machine learning model is trained using a supervised learning algorithm, such as a decision tree or random forest, to predict the math score based on the input features. The dataset is split into training and testing sets to evaluate the model's performance.
+The predictive model is developed using supervised learning techniques, such as:
+✔ Decision Trees
+✔ Random Forest
+✔ Gradient Boosting (CatBoost, XGBoost, etc.)
+
+The dataset is divided into training and testing sets to assess model accuracy and performance.
 
 ## Results
 
-The trained model achieved an accuracy of 85% in predicting student performance in mathematics. The results demonstrate the significant impact of factors such as parental education, test preparation course, and lunch type on student scores.
+The trained model achieved 85% accuracy in predicting student mathematics scores.
+Key insights from the analysis:
+📌 Parental education has a significant impact on student performance.
+📌 Students enrolled in test preparation courses tend to score higher.
+📌 Lunch type is correlated with performance, highlighting potential socioeconomic factors.
+
 
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Project Structure
-
-The project has the following structure:
-    
-    ├───artifacts
-    ├───catboost_info
-    │ └───learn
-    ├───Notebook
-    │ └───data
-    ├───src
-    │ ├───components
-    │ └───pipeline
-    ├───static
-    │ └───css
-    └───templates
-
-- `artifacts`: This directory contains artifacts generated during the model training process.
-- `catboost_info`: This directory stores CatBoost model information.
-- `Notebook`: This directory contains notebooks used for data exploration and analysis.
-- `src`: This directory contains the source code for the project.
-  - `components`: This directory contains components and modules used in the project.
-  - `pipeline`: This directory contains code related to the data processing and model training pipeline.
-- `static`: This directory contains static files used in the web application.
-  - `css`: This directory contains CSS files for styling the web application.
-- `templates`: This directory contains HTML templates used in the web application.
-
-## Author
-Sanjay Kumar Prasad, You can also visit my GitHub profile: @skprasad117
-
-Feel free to reach out with any questions or feedback regarding the project.
 
 
 
