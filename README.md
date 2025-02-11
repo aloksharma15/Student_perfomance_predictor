@@ -11,13 +11,10 @@ This project aims to predict student performance based on various factors such a
 - [Model Training](#model-training)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
-- [Project Structure](#project-structure)
-- [Author](#author)
 
 ## Introduction
 
-IIn today's rapidly evolving education system, data-driven insights can play a pivotal role in improving student outcomes. This project explores the use of machine learning to analyze and predict student performance in mathematics based on multiple influencing factors. By leveraging predictive modeling, educators and parents can gain valuable insights to identify students who may require additional guidance, enabling more personalized and effective learning strategies.
+In today's rapidly evolving education system, data-driven insights can play a pivotal role in improving student outcomes. This project explores the use of machine learning to analyze and predict student performance in mathematics based on multiple influencing factors. By leveraging predictive modeling, educators and parents can gain valuable insights to identify students who may require additional guidance, enabling more personalized and effective learning strategies.
 
 **Note: This Project is for Educational Purposes Only**
 
@@ -47,9 +44,9 @@ It includes student demographics, parental education, lunch type, test preparati
 
 ## Model Training
 
-The predictive model is developed using supervised learning techniques, such as:
-✔ Decision Trees
-✔ Random Forest
+The predictive model is developed using supervised learning techniques, such as:<br>
+✔ Decision Trees<br>
+✔ Random Forest<br>
 ✔ Gradient Boosting (CatBoost, XGBoost, etc.)
 
 The dataset is divided into training and testing sets to assess model accuracy and performance.
@@ -57,9 +54,9 @@ The dataset is divided into training and testing sets to assess model accuracy a
 ## Results
 
 The trained model achieved 85% accuracy in predicting student mathematics scores.
-Key insights from the analysis:
-📌 Parental education has a significant impact on student performance.
-📌 Students enrolled in test preparation courses tend to score higher.
+Key insights from the analysis:<br>
+📌 Parental education has a significant impact on student performance.<br>
+📌 Students enrolled in test preparation courses tend to score higher.<br>
 📌 Lunch type is correlated with performance, highlighting potential socioeconomic factors.
 
 
